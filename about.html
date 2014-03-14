@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>ടിൻറുമോൻ</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+        <link rel="stylesheet" href="http://tintumon.github.io/theme/css/normalize.css">
+        <link rel="stylesheet" href="http://tintumon.github.io/theme/css/main.css">
+        <script src="http://tintumon.github.io/theme/js/vendor/modernizr-2.6.2.min.js"></script>
+        <script src="http://tintumon.github.io/theme/js/jquery.min.js"></script>
+
+       <style>
+        a
+        {
+          color: #08088A;
+          text-decoration: none;
+        }
+        #accordian li {
+          list-style-type: none;
+        }
+
+        #accordian ul ul {
+          display: none;
+        }
+       </style>
+
+       <script>
+       $(document).ready(function(){
+          $("#accordian span").click(function()
+          {
+            $("#accordian ul ul").slideUp();
+            $("#accordian span").attr('class', 'icon-right-dir');
+
+            if(!$(this).next().is(":visible"))
+            {
+              $(this).next().slideDown();
+              $(this).attr('class','icon-down-dir');
+    
+            }
+            else
+            {
+              $(this).attr('class','icon-right-dir');
+            }
+          })
+        })
+       </script>
+
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+            <link rel="stylesheet" href="css/fontello-ie7.css">
+        <![endif]-->
+        
+    <header class="clearfix">
+        <section class="container">
+        <a href="">
+          <div width="256" height="94">
+            <h2> ടിൻറുമോൻ </h2>
+            <h4> ടിൻറുമോൻ തമാശകൾ </h4>
+          </div>
+        </a>
+        <nav>
+        <ul>
+        <li><a href="http://tintumon.github.io/index.html"> <i class="icon-home-1"></i></a></li>
+        <li><a href="http://tintumon.github.io/about.html"><i class="icon-info-circled"></i></a></li>
+        <li><a href="http://tintumon.github.io/atom.xml"><i class="icon-rss"></i></a></li>
+        </ul>
+        </nav>
+      </section>
+    
+        </header>
+        
+<div class="main clearfix">
+	<section class="container" id="posts">
+		<div class="left-container">
+	  		<article class="list clearfix">
+	  			<h3>About</h3>
+				<p>
+
+Here goes the about content.
+</p>    
+	  		</article>
+		</div>
+			
+
+<div class="right-container">
+          <div class="right-col">
+          <h3>ABOUT</h3>
+          <p>Hello this is my first Statiked Blog. To change the contents of this short introduction, change short_introduction.html file in _includes</p>
+          </div>
+          
+          <div class="right-col">
+          <h3>ARCHIVES</h3>
+          <div id="accordian">
+          <ul>
+            
+            
+                
+                <li>
+                  <span class="icon-right-dir"><i>2014</i></span>
+                <ul>
+                <li><a href="http://tintumon.github.io/2014/03/14/ടിൻറുമോൻ തമാശമകൾ 1.html">ടിൻറുമോൻ തമാശമകൾ 1</a></li>
+<li><a href="http://tintumon.github.io/2014/03/14/പുതിയ തമാശ.html">പുതിയ തമാശ</a></li>
+<li><a href="http://tintumon.github.io/2014/03/14/മൂന്നാം തമാശ.html">മൂന്നാം തമാശ</a></li>
+<li><a href="http://tintumon.github.io/2014/03/14/4 ആം തമാശ.html">4 ആം തമാശ</a></li>
+<li><a href="http://tintumon.github.io/2014/03/14/ആഞ്ചാം തമാശ.html">ആഞ്ചാം തമാശ</a></li>
+<li><a href="http://tintumon.github.io/2014/03/14/The new Post.html">The new Post</a></li>
+<li><a href="http://tintumon.github.io/2014/03/14/The very new post.html">The very new post</a></li>
+
+          </ul>
+         </div>
+          </div>
+          
+     <div class="right-col">
+          <h3>CATEGORIES</h3>
+          <div id="accordian">
+            <ul>
+            
+          </ul>
+         
+          </div>     
+          
+        </div>
+        
+        </section>
+        </div>
+        
+        <footer class="clearfix">
+        <div class="container">
+        <div class="left-container"><a href="#">Snowhite</a> | <a href="#">All Rights Reserved.</a></div>
+         <div class="right-container">Blog theme by : <a href="#">Statiked</a></div>
+        </div>
+        </footer>
+
+
+
+
+
+        <script src="http://tintumon.github.io/theme/js/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="http://tintumon.github.io/theme/js/vendor/jquery-1.10.2.min.js"><\/script>')</script>
+        <script src="http://tintumon.github.io/theme/js/plugins.js"></script>
+        <script src="http://tintumon.github.io/theme/js/main.js"></script>
+
+
+        <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+          <script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', '']);
+    _gaq.push(['_trackPageview']);
+
+    (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+  </script>
+        <script type="text/javascript">
+    /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+    var disqus_shortname = ''; // required: replace example with your forum shortname
+
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function () {
+        var s = document.createElement('script'); s.async = true;
+        s.type = 'text/javascript';
+        s.src = '//' + disqus_shortname + '.disqus.com/count.js';
+        (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
+    }());
+    </script>
+        <script type="text/javascript">
+    (function(){
+      var twitterWidgets = document.createElement('script');
+      twitterWidgets.type = 'text/javascript';
+      twitterWidgets.async = true;
+      twitterWidgets.src = 'http://platform.twitter.com/widgets.js';
+      document.getElementsByTagName('head')[0].appendChild(twitterWidgets);
+    })();
+  </script>
+
+        <script type="text/javascript">
+    (function() {
+      var script = document.createElement('script'); script.type = 'text/javascript'; script.async = true;
+      script.src = 'https://apis.google.com/js/plusone.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(script, s);
+    })();
+  </script>
+
+        <div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) {return;}
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/all.js#appId=212934732101925&xfbml=1";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+    </body>
+</html>
