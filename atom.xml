@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[]]></title>
-  <link href="http://tintumon.github.io/atom.xml" rel="self"/>
-  <link href="http://tintumon.github.io/"/>
-  <updated>2014-03-14T15:58:27-04:00</updated>
-  <id>http://tintumon.github.io/</id>
+  <link href="http://com.rptony.narayam.s3-website-us-west-2.amazonaws.com/atom.xml" rel="self"/>
+  <link href="http://com.rptony.narayam.s3-website-us-west-2.amazonaws.com/"/>
+  <updated>2014-03-14T17:56:29-04:00</updated>
+  <id>http://com.rptony.narayam.s3-website-us-west-2.amazonaws.com/</id>
   <author>
     <name><![CDATA[]]></name>
     <email><![CDATA[<null>]]></email>
@@ -14,41 +14,41 @@
 
   <entry>
     <title type="html"><![CDATA[മൂന്നാം തമാശ]]></title>
-    <link href="http://tintumon.github.io/2014/03/14/മൂന്നാം തമാശ.html"/>
+    <link href="http://com.rptony.narayam.s3-website-us-west-2.amazonaws.com/2014/03/14/മൂന്നാം തമാശ.html"/>
     <updated>2014-03-14T14:32:48-04:00</updated>
-    <id>http://tintumon.github.io/2014/03/14/മൂന്നാം തമാശ.html</id>
+    <id>http://com.rptony.narayam.s3-website-us-west-2.amazonaws.com/2014/03/14/മൂന്നാം തമാശ.html</id>
     <content type="html"><![CDATA[<p>തമാശകൾ ഇനിയും വരും. പോകും.</p>
 ]]></content>
   </entry>
 <entry>
     <title type="html"><![CDATA[4 ആം തമാശ]]></title>
-    <link href="http://tintumon.github.io/2014/03/14/4 ആം തമാശ.html"/>
+    <link href="http://com.rptony.narayam.s3-website-us-west-2.amazonaws.com/2014/03/14/4 ആം തമാശ.html"/>
     <updated>2014-03-14T14:32:43-04:00</updated>
-    <id>http://tintumon.github.io/2014/03/14/4 ആം തമാശ.html</id>
+    <id>http://com.rptony.narayam.s3-website-us-west-2.amazonaws.com/2014/03/14/4 ആം തമാശ.html</id>
     <content type="html"><![CDATA[<p>ഇതങ്ങനെയുണ്ടെന്നു നോക്കട്ടെ</p>
 ]]></content>
   </entry>
 <entry>
     <title type="html"><![CDATA[ആഞ്ചാം തമാശ]]></title>
-    <link href="http://tintumon.github.io/2014/03/14/ആഞ്ചാം തമാശ.html"/>
+    <link href="http://com.rptony.narayam.s3-website-us-west-2.amazonaws.com/2014/03/14/ആഞ്ചാം തമാശ.html"/>
     <updated>2014-03-14T14:32:35-04:00</updated>
-    <id>http://tintumon.github.io/2014/03/14/ആഞ്ചാം തമാശ.html</id>
+    <id>http://com.rptony.narayam.s3-website-us-west-2.amazonaws.com/2014/03/14/ആഞ്ചാം തമാശ.html</id>
     <content type="html"><![CDATA[<p>ഇതിലെന്തു തമാശ</p>
 ]]></content>
   </entry>
 <entry>
     <title type="html"><![CDATA[The new Post]]></title>
-    <link href="http://tintumon.github.io/2014/03/14/The new Post.html"/>
+    <link href="http://com.rptony.narayam.s3-website-us-west-2.amazonaws.com/2014/03/14/The new Post.html"/>
     <updated>2014-03-14T14:40:54-04:00</updated>
-    <id>http://tintumon.github.io/2014/03/14/The new Post.html</id>
+    <id>http://com.rptony.narayam.s3-website-us-west-2.amazonaws.com/2014/03/14/The new Post.html</id>
     <content type="html"><![CDATA[<p>This post is in english. See how it affects the layout</p>
 ]]></content>
   </entry>
 <entry>
     <title type="html"><![CDATA[The very new post]]></title>
-    <link href="http://tintumon.github.io/2014/03/14/The very new post.html"/>
+    <link href="http://com.rptony.narayam.s3-website-us-west-2.amazonaws.com/2014/03/14/The very new post.html"/>
     <updated>2014-03-14T14:42:00-04:00</updated>
-    <id>http://tintumon.github.io/2014/03/14/The very new post.html</id>
+    <id>http://com.rptony.narayam.s3-website-us-west-2.amazonaws.com/2014/03/14/The very new post.html</id>
     <content type="html"><![CDATA[<p>This is another english post. Let see if this works</p>
 ]]></content>
   </entry>
