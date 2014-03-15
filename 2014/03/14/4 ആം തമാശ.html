@@ -14,94 +14,151 @@
 
         <link rel="stylesheet" href="http://tintumon.github.io/theme/css/normalize.css">
         <link rel="stylesheet" href="http://tintumon.github.io/theme/css/main.css">
-        <link rel="stylesheet" href="http://tintumon.github.io/theme/css/style.css">
         <script src="http://tintumon.github.io/theme/js/vendor/modernizr-2.6.2.min.js"></script>
-        <link href='http://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
-       
+        <script src="http://tintumon.github.io/theme/js/jquery.min.js"></script>
+
+       <style>
+        a
+        {
+          color: #08088A;
+          text-decoration: none;
+        }
+        #accordian li {
+          list-style-type: none;
+        }
+
+        #accordian ul ul {
+          display: none;
+        }
+       </style>
+
+       <script>
+       $(document).ready(function(){
+          $("#accordian span").click(function()
+          {
+            $("#accordian ul ul").slideUp();
+            $("#accordian span").attr('class', 'icon-right-dir');
+
+            if(!$(this).next().is(":visible"))
+            {
+              $(this).next().slideDown();
+              $(this).attr('class','icon-down-dir');
+    
+            }
+            else
+            {
+              $(this).attr('class','icon-right-dir');
+            }
+          })
+        })
+       </script>
+
     </head>
     <body>
         <!--[if lt IE 7]>
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
             <link rel="stylesheet" href="css/fontello-ie7.css">
         <![endif]-->
-      
+        
     <header class="clearfix">
         <section class="container">
+        <a href="">
+          <div width="256" height="94">
+            <h2> ടിൻറുമോൻ </h2>
+            <h4> ടിൻറുമോൻ തമാശകൾ </h4>
+          </div>
+        </a>
         <nav>
-            <ul>
-                <li><a href="http://tintumon.github.io/about.html">About  </a>  </li>
-                <li><a href="">Recent + </a>  </li>
-                <li><a href="">Archives + </a>  </li>
-                <li><a href="">Categories +</a>  </li>
-            </ul>
+        <ul>
+        <li><a href="http://tintumon.github.io/index.html"> <i class="icon-home-1"></i></a></li>
+        <li><a href="http://tintumon.github.io/about.html"><i class="icon-info-circled"></i></a></li>
+        <li><a href="http://tintumon.github.io/atom.xml"><i class="icon-rss"></i></a></li>
+        </ul>
         </nav>
-        <div class="feed"><a href="http://tintumon.github.io/atom.xml"><i class="icon-rss"></a></i></div>
-        <div id="logobox" class="content-box">
-            
-            <div class="logo"><img src="http://tintumon.github.io/theme/img/vintage-logo.png" alt=""></div>
-            <a href = "http://tintumon.github.io"><div class="vintage-text">
-                <h1><strong>ടിൻറുമോൻ</strong></h1>
-                <p>ടിൻറുമോൻ തമാശകൾ</p>
-            </div></a>
-        </div>
       </section>
     
         </header>
         
-        
-
 <div class="main clearfix">
-        <section id="posts" class="container"> 
-            <article class="content-box">
-                <div class="date">14<span>Mar</span></div>
-                <h1>4 ആം തമാശ</h1>
-                <img src="http://tintumon.github.io/theme/img/post1.jpg" alt="">
-                <p><p>ഇതങ്ങനെയുണ്ടെന്നു നോക്കട്ടെ</p>
+	<section class="container" id="posts">
+		<div class="left-container">
+	  		<article class="list clearfix">
+		  		<h3>4 ആം തമാശ</h3>
+		 		<span class="by">Posted by the user on 14 Mar 2014.</span>
+				<p><p>ഇതങ്ങനെയുണ്ടെന്നു നോക്കട്ടെ</p>
 </p>
-                <div class="socialbar">
-                    <div class="clearfix"></div>
-                    <ul>
-                        <li></li>
-                        <li><i class="icon-comment"></i> <span> 
+		
+				<div class="socialbar">
+					<div class="clearfix"></div>
+					<ul>
+						<li>
+						
+						</li>
+						<li><i class="icon-comment"></i> 
+							<span> 
+								
                                 
-                                <div class="g-commentcount" data-href="http://tintumon.github.io/2014/03/14/4 ആം തമാശ.html"></div> </span></li>
-                        <li class="push-right">
-                            <a href=""><i class="icon-twitter-circled"></i></a>
-                            <a href=""><i class="icon-facebook-circled"></i></a>
-                            <a href=""><i class="icon-gplus-circled"></i></a>
+                                <div class="g-commentcount" data-href="http://tintumon.github.io/2014/03/14/4 ആം തമാശ.html"></div> 
+                            </span>
                         </li>
-                    </ul>
-                </div>
+						<li class="push-right">
+							<a href=""><i class="icon-twitter-circled"></i></a>
+							<a href=""><i class="icon-facebook-circled"></i></a>
+							<a href=""><i class="icon-gplus-circled"></i></a>
+						</li>
+					</ul>
+				</div>   
+			<div class="g-comments" data-href = "http://tintumon.github.io/2014/03/14/4 ആം തമാശ.html" data-width = "650" data-first_party_property = "BLOGGER" data-view_type = "FILTERED_POSTMOD"></div> 
+	  		</article>
+		</div>
+			
+
+<div class="right-container">
+          <div class="right-col">
+          <h3>ABOUT</h3>
+          <p>Hello this is my first Statiked Blog. To change the contents of this short introduction, change short_introduction.html file in _includes</p>
+          </div>
+          
+          <div class="right-col">
+          <h3>ARCHIVES</h3>
+          <div id="accordian">
+          <ul>
+            
+            
                 
-             
-             <div class="g-comments" data-href = "http://tintumon.github.io/2014/03/14/4 ആം തമാശ.html" data-width = "650" data-first_party_property = "BLOGGER" data-view_type = "FILTERED_POSTMOD"></div>
-            </article>
+                <li>
+                  <span class="icon-right-dir"><i>2014</i></span>
+                <ul>
+                <li><a href="http://tintumon.github.io/2014/03/15/This should be the latest one.html">This should be the latest one</a></li>
+<li><a href="http://tintumon.github.io/2014/03/14/മൂന്നാം തമാശ.html">മൂന്നാം തമാശ</a></li>
+<li><a href="http://tintumon.github.io/2014/03/14/4 ആം തമാശ.html">4 ആം തമാശ</a></li>
+<li><a href="http://tintumon.github.io/2014/03/14/ആഞ്ചാം തമാശ.html">ആഞ്ചാം തമാശ</a></li>
+<li><a href="http://tintumon.github.io/2014/03/14/The new Post.html">The new Post</a></li>
+<li><a href="http://tintumon.github.io/2014/03/14/The very new post.html">The very new post</a></li>
+<li><a href="http://tintumon.github.io/2014/03/14/Tintumon is god.html">Tintumon is god</a></li>
+<li><a href="http://tintumon.github.io/2014/03/14/There is chronological difference.html">There is chronological difference</a></li>
+
+          </ul>
+         </div>
+          </div>
+          
+     <div class="right-col">
+          <h3>CATEGORIES</h3>
+          <div id="accordian">
+            <ul>
+            
+          </ul>
+         
+          </div>     
+          
+        </div>
+        
         </section>
-</div>
-
-        <footer>
-        <div class="container" id="footer">
-        <div class="col-180">
-        <h3>ABOUT</h3>
-        Hello this is my first Statiked Blog. To change the contents of this short introduction, change short_introduction.html file in _includes
         </div>
-        <div class="col-180"><h3>POPULAR POST</h3>
-        <ul class="list">
-        <li>
-        <a href="http://tintumon.github.io/2014/03/15/This should be the latest one.html">This should be the latest one</a>
-        </li>
-<li>
-        <a href="http://tintumon.github.io/2014/03/14/മൂന്നാം തമാശ.html">മൂന്നാം തമാശ</a>
-        </li>
-<li>
-        <a href="http://tintumon.github.io/2014/03/14/4 ആം തമാശ.html">4 ആം തമാശ</a>
-        </li>
-
-        </ul>
-        </div>
-        </div>
-       <div class="sub-footer container">
-        <div class="left-container"><a href="#">THE VINTAGE BLOG  </a> | <a href="#">All Rights Reserved.</a></div>
+        
+        <footer class="clearfix">
+        <div class="container">
+        <div class="left-container"><a href="#">Snowhite</a> | <a href="#">All Rights Reserved.</a></div>
          <div class="right-container">Blog theme by : <a href="#">Statiked</a></div>
         </div>
         </footer>
@@ -112,24 +169,8 @@
 
         <script src="http://tintumon.github.io/theme/js/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="http://tintumon.github.io/theme/js/vendor/jquery-1.10.2.min.js"><\/script>')</script>
-        <script defer src="http://tintumon.github.io/theme/js/jquery.flexslider-min.js"></script>
-        
         <script src="http://tintumon.github.io/theme/js/plugins.js"></script>
         <script src="http://tintumon.github.io/theme/js/main.js"></script>
-          <script type="text/javascript">
-    $(function(){
-      SyntaxHighlighter.all();
-    });
-    $(window).load(function(){
-      $('.flexslider').flexslider({
-        animation: "slide",
-        start: function(slider){
-          $('body').removeClass('loading');
-        }
-      });
-    });
-  </script>
-
 
 
         <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
